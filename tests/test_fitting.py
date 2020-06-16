@@ -1,7 +1,7 @@
 __author__ = "github.com/wardsimon"
 __version__ = "0.0.1"
 
-from easyTemplateLib.Objects.fitting import Parameter
+from curly-telegram.Objects.fitting import Parameter
 
 
 def test_parameter():

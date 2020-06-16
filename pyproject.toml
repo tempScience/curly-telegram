@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "easyTemplateLib"
+name = "curly-telegram"
 version = "0.0.1"
-description = "easyTemplate - The easy way to interface with things"
+description = "curly-telegram - The easy way to interface with things"
 authors = ["Simon Ward <2798086+wardsimon@users.noreply.github.com>"]
 license = "GPL-3.0"
 readme = "README.md"
@@ -13,7 +13,7 @@ classifiers=[
     "Programming Language :: Python :: 3.6",
 ]
 packages = [
-    { include = "easyTemplateLib" },
+    { include = "curly-telegram" },
 ]
 
 [tool.poetry.dependencies]
@@ -47,7 +47,7 @@ include_trailing_comma = true
     "linux: mark a test as a linux only test.",
     "darwin: mark a test as a OSX only test. "]
 
-addopts = "--cov=easyTemplateLib"
+addopts = "--cov=curly-telegram"
 testpaths = [
     "tests"
 ]
